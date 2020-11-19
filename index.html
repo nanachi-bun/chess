@@ -3,6 +3,8 @@
 
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BWSU Schachturnier</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/css.css">
@@ -10,52 +12,85 @@
   </head>
 
   <body>
-    <img src="bws.png" alt="logo">
-    <div class="jumbotron">
-      <h1 class=".display">Willkommen zum Schachturnier der BWS Uster</h1>
-    </div>
-
-    <div class="container">
-      <h3>Hier finden Sie die Links zu ihren Klassen</h3>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a href="https://extranet.bws-uster.ch/">
+	     <img src="bws.png" alt="logo">
+      </a>
+    </nav>
+    <header>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-center uster">Willkommen zum Schachturnier der Bws Uster</h1>
+              <h2 class="text-center uster">Hier finden Sie die Links zu ihren Klassen</h2>
+            </div>
+          </div>
+        </div>
+        </div>
+    </header>
 
     <div class="container">
       <div class="row">
 <!-- Zeile 1-->
-        <div class="col-sm-4">
-          <p><a href="class/mint/mint-gr.html">
-            <img src="chess.png" alt="logo" style="float:top;width:60px;height:60px">MINT
-          </a></p>
-        </div>
-        <div class="col-sm-4">
-          <p><a href="class/ghh/ghh-gr.html"><img src="chess.png" alt="logo" style="float:top;width:60px;height:60px">GHH</a></p>
-        </div>
-        <div class="col-sm-4">
-          <p><a href="class/gdk/gdk-gr.html"><img src="chess.png" alt="logo" style="float:top;width:60px;height:60px">GDK</a></p>
-        </div>
-      </div>
-<!-- Zeile 2 -->
 
-      <div class="row">
-        <div class="col-sm-4">
-          <p><a href=class/sci/sci-gr.html><img src="chess.png" alt="logo" style="float:top;width:60px;height:60px">SCI</a></p>
-        </div>
-        <div class="col-sm-4">
-          <p><a href=class/bus/bus-gr.html><img src="chess.png" alt="logo" style="float:top;width:60px;height:60px">BUS</a></p>
-        </div>
-        <div class="col-sm-4">
-          <p><a href=class/femm/femm-gr.html><img src="chess.png" alt="logo" style="float:top;width:60px;height:60px">FEMM</a></p>
-        </div>
-      </div>
-<!-- Zeile 3 -->
-      <div class="row">
-        <div class="col-sm-4">
-          <p><a href=class/cha/cha-gr.html><img src="chess.png" alt="logo" style="float:top;width:60px;height:60px">CHA</a></p>
-        </div>
-        <div class="col-sm-4">
-          <p><a href=class/comm/comm-gr.html><img src="chess.png" alt="logo" style="float:top;width:60px;height:60px">COMM</a></p>
-      </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+    <a href="class/mint/mint-gr.html">
+      <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="chess.png" data-holder-rendered="true">
+        <h3 class="uster">MINT</h3>
+    </a>
   </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+    <a href="class/ghh/ghh-gr.html">
+      <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="chess.png" data-holder-rendered="true">
+        <h3>GHH</h3>
+    </a>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+    <a href="class/gdk/gdk-gr.html">
+      <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="chess.png" data-holder-rendered="true">
+        <h3>GDK</h3>
+    </a>
+  </div>
+<!-- Zeile 2 -->
+  <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+    <a href="class/sci/sci-gr.html">
+      <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="chess.png" data-holder-rendered="true">
+        <h3>SCI</h3>
+    </a>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+    <a href="class/bus/bus-gr.html">
+      <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="chess.png" data-holder-rendered="true">
+        <h3>BUS</h3>
+    </a>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+    <a href="class/femm/femm-gr.html">
+      <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="chess.png" data-holder-rendered="true">
+        <h3>FEMM</h3>
+    </a>
+  </div>
+
+<!-- Zeile 3 -->
+  <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+    <a href="class/cha/cha-gr.html">
+      <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="chess.png" data-holder-rendered="true">
+        <h3>CHA</h3>
+    </a>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+    <a href="class/comm/comm-gr.html">
+      <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="chess.png" data-holder-rendered="true">
+        <h3>COMM</h3>
+    </a>
+  </div>
+
 
 
 
