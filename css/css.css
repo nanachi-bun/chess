@@ -1,3 +1,9 @@
 * {
+  font-family: Tahoma, Geneva, sans-serif
   text-align: center
+
 }
+.jumbotron {
+background-image: url(../img/jumbotron.png);
+background-size: cover;
+height: 100%;}
